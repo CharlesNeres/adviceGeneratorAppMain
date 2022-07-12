@@ -5,3 +5,90 @@ body{
   font-size: 28px;
   background-color: var(--DarkBlue);
 }
+
+.App{
+  width: 90%;
+  background-color: var(--DarkGrayishBlue);
+  border-radius: .4em;
+  -webkit-border-radius: .4em;
+  -moz-border-radius: .4em;
+  -ms-border-radius: .4em;
+  -o-border-radius: .4em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  padding: 1em;
+  text-align: center;
+}
+
+.App header{
+  color: var(--NeonGreen);
+  letter-spacing: .3em;
+  font-size: 40%;
+}
+
+.App header span:first-child{
+  text-transform: uppercase;
+}
+
+.App main{
+  color: #fff;
+  margin: 1em 0;
+}
+
+.App footer{
+  margin-bottom: 1em;
+}
+
+.App footer hr,
+.App footer .iconPause{
+  display: inline-block;  
+}
+
+.App footer hr{
+  width: 35%;
+  vertical-align: middle;
+  color: var(--GrayishBlue);
+}
+
+.App footer .iconPause{
+  margin: 0 .4em; 
+  font-size: 80%;  
+  color: #fff;
+}
+
+.App button{
+  width: 4.5em;
+  height: 4.5em;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: none;
+  outline: none;
+  background-color: var(--NeonGreen);
+  color: var(--DarkBlue);
+  position: absolute;
+  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.App button:hover{ 
+  box-shadow: 0 0 50px #4fff30;
+}
+
+.App .iconDice{
+  font-size: 180%;
+}

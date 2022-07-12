@@ -3,4 +3,5 @@
 body{
   font-family: 'Manrope', sans-serif;
   font-size: 28px;
+  background-color: var(--DarkBlue);
 }
